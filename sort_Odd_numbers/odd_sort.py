@@ -10,7 +10,7 @@ def sort_array(source_array):
             x = odds.pop()
             copy[index] = x
 
-    print(copy)
+    print(copy, source_array)
     return copy
 
 sort_array([10,9,8,7,6,5,4,3,2,1])
