@@ -26,3 +26,11 @@ sort_array([5, 3, 1, 8, 0])
     # for num in copy:
     #     if num % 2 != 0:
     #         odds.append(num)
+
+
+
+# someone elses solutin. HAHA
+
+# def sort_array(arr):
+#   odds = sorted((x for x in arr if x%2 != 0), reverse=True)
+#   return [x if x%2==0 else odds.pop() for x in arr]
